@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Cleanup - Close duplicate tabs",
+    "short_name": "Tab Cleanup",
+    "version": "0.0.1",
+    "description": "Add a button to remove duplicate tabs.",
+    "homepage_url": "https://github.com/koenpunt",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_title": "Close duplicate tabs"
+    },
+    "icons": {
+        "128": "icons/icon128.png",
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
